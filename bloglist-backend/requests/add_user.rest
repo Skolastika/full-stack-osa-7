@@ -1,0 +1,32 @@
+POST http://localhost:3003/api/users
+content-type: application/json
+
+{
+  "username": "nunnu",
+  "password": "SalaNunnu",
+  "name": "Nunnu",
+  "adult": false
+}
+
+###
+
+POST http://localhost:3003/api/users
+content-type: application/json
+
+{
+  "username": "ninni",
+  "password": "SalaNinni",
+  "name": "Ninni"
+}
+
+###
+
+POST http://localhost:3003/api/users
+content-type: application/json
+
+{
+  "username": "nannu",
+  "password": "SN",
+  "name": "Nannu",
+  "adult": true
+}

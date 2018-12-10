@@ -1,0 +1,57 @@
+POST http://localhost:3003/api/blogs
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im51bm51IiwiaWQiOiI1YmUxYjY5YzgyZTRkMjQyYThjMTBiODMiLCJpYXQiOjE1NDE2MjcwMzF9.gtHpM-MzJkhBOGE9rgFaQB-SXfcapILxXaDuPTDVLpo
+
+{
+  "title": "The Wordpress.com Blog 2",
+  "author": "Wordpress",
+  "url": "https://en.blog.wordpress.com/"
+}
+
+###
+
+POST http://localhost:3003/api/blogs
+content-type: application/json
+Authorization: bearer yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im51bm51IiwiaWQiOiI1YmUxYjY5YzgyZTRkMjQyYThjMTBiODMiLCJpYXQiOjE1NDE2MjcwMzF9.gtHpM-MzJkhBOGE9rgFaQB-SXfcapILxXaDuPTDVLpo
+
+{
+  "title": "The Wordpress.com Blog",
+  "author": "Wordpress",
+  "url": "https://en.blog.wordpress.com/"
+}
+
+
+###
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "mLab Blog",
+  "author": "mLab",
+  "url": "https://blog.mlab.com/",
+  "likes": 1
+}
+
+###
+
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "Google Blog",
+  "author": "Google",
+  "url": "https://www.blog.google.com/",
+  "likes": 3
+}
+
+###
+
+POST http://localhost:3003/api/blogs
+content-type: application/json
+
+{
+  "title": "The Wordpress.com Blog",
+  "author": "Wordpress",
+  "url": "https://en.blog.wordpress.com/",
+  "likes": 2
+}
