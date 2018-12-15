@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Skolastika/full-stack-osa-4.git"
+    "url": "git+https://github.com/Skolastika/full-stack-osa-7.git"
   },
   "author": "Henna-Riikka Ruonala",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Skolastika/full-stack-osa-4/issues"
+    "url": "https://github.com/Skolastika/full-stack-osa-7/issues"
   },
-  "homepage": "https://github.com/Skolastika/full-stack-osa-4#readme",
+  "homepage": "https://github.com/Skolastika/full-stack-osa-7#readme",
   "dependencies": {
     "bcrypt": "^3.0.2",
     "cors": "^2.8.4",

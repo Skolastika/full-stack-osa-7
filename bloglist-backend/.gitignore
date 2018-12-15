@@ -1,6 +1,3 @@
 node_modules
 .env
 now.json
-
-.eslintrc.js
-.eslintignore

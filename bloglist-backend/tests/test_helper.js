@@ -77,6 +77,15 @@ const usersInDb = async () => {
   return users.map(User.format)
 }
 
+const filter = (blog) => {
+  return {
+    title: blog.title,
+    author: blog.author,
+    likes: blog.likes,
+    url: blog.url,
+  }
+}
+
 module.exports = {
-  initialBlogs, nonExistingId, blogsInDb, usersInDb
+  initialBlogs, nonExistingId, blogsInDb, usersInDb, filter
 }

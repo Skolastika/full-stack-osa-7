@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Segment, Header, List } from 'semantic-ui-react'
 import CommentForm from './CommentForm'
 
@@ -19,6 +20,10 @@ class Comments extends React.Component {
       </Segment>
     )
   }
+}
+
+Comments.propTypes = {
+  blog: PropTypes.object.isRequired
 }
 
 export default Comments

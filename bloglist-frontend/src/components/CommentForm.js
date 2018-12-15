@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { notify } from '../reducers/notificationReducer'
 import { addComment } from '../reducers/blogReducer'
@@ -33,6 +34,10 @@ class CommentForm extends React.Component {
       </Form>
     )
   }
+}
+
+CommentForm.propTypes = {
+  blog: PropTypes.object.isRequired
 }
 
 const mapStateToProps = (state) => {

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { Segment, Header, Button, Icon, Label, Grid } from 'semantic-ui-react'
 import { increaseLikes, removeBlog } from '../reducers/blogReducer'
@@ -48,6 +49,10 @@ class Blog extends React.Component {
     }
     return null
   }
+}
+
+Blog.propTypes = {
+  blog: PropTypes.object.isRequired
 }
 
 const mapStateToProps = (state) => {
